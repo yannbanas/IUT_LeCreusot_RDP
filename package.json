@@ -1,0 +1,27 @@
+{
+	"name": "mstsc.js",
+	"author": "Banas_Yann",
+	"version": "0.1.0",
+	"engines": 
+	[
+		"node = 0.10.x"
+	],
+	"description": "client rdp ecrit en RDP pour IUT du creusot",
+	
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"main": "server.js",
+	"dependencies": {
+		"express": "4.x.x",
+		"socket.io": "1.3.x",
+		"node-rdpjs": ">=0.2.0"
+	},
+	"scripts": {
+		"start": "node server.js"
+	},
+	"cozy-permissions": {},
+	"cozy-displayName": "Mstsc.js",
+	"icon-path": ""
+}

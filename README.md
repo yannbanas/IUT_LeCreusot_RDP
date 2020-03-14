@@ -4,6 +4,14 @@ this project is it the full html5 & nodejs rdp client for University LeCreusot c
 # Install
 open a terminal ctrl+alt+t
   - type sudo apt-get update && sudo apt-get upgrade -y 
+  - sudo su (typing your password)
+  - apt install git
+  - git clone https://github.com/yannbanas/IUT_LeCreusot_RDP.git
+  - cd IUT_LeCreusot_RDP
+  - apt install nodejs-legacy
+  - node server.js >> log.txt
+  
+Bonus .sh for lunch nodejs app
 
 # How does it works ?
 
@@ -14,3 +22,26 @@ The frontend application uses socket.io and canvas for binding with mstsc.js (my
  Backend
 
 The backend application uses nodejs, express and socket.io as the web server. The main goal of the backend is to be a proxy between the web browser and the terminal server. It uses node-rdpjs for its rdp client.
+
+========================================================================================================================================
+
+# FR_fr Documentation
+
+ce projet est un client rdp en full html5 developpé en JavaScript avec NODEJS pour l'université du Creusot.
+
+# Installation
+
+Ouvrire un terminal ctrl+alt+t et ecriver ces commandes
+  - sudo apt-get update && sudo apt-get upgrade -y 
+  - sudo su (valider et tappé votre mot de passe)
+  - apt install git
+  - git clone https://github.com/yannbanas/IUT_LeCreusot_RDP.git
+  - cd IUT_LeCreusot_RDP
+  - apt install nodejs-legacy
+  - node server.js >> log.txt
+  
+Bonus .sh creation d'un script en .sh pour lancer le serveur avec des logs
+
+# Comment cela fonctionne t-il
+
+lire dans la section en Englais
